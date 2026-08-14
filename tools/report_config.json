@@ -1,0 +1,13 @@
+{
+  "_comment": "Alias table for genuine synonyms that cannot be inferred from spelling alone (different words for the same concept, e.g. 'EC' and 'Web' both meaning the online channel). Spelling/whitespace/width variants (e.g. 'シブヤ店' vs '渋谷店', '横浜店 ' vs '横浜店') are resolved automatically by build_sales_report.py and do NOT need an entry here. Edit this file, not the script, when a genuinely new synonym shows up in future months' raw data.",
+  "チャネル": {
+    "店舗": "店頭",
+    "オフライン": "店頭",
+    "オンライン": "EC",
+    "Web": "EC"
+  },
+  "顧客区分": {
+    "メンバー": "会員"
+  },
+  "店舗": {}
+}
